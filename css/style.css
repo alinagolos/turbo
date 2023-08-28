@@ -34,6 +34,9 @@ body {
   margin: 0 auto;
   padding: 0 10px;
 }
+.visually-hidden {
+  display: none;
+}
 /*start header*/
 .header__nav {
   display: flex;
@@ -94,6 +97,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 84px;
+  margin-bottom: 50px;
 }
 .promo-content-left h2 {
   font-family: Ubuntu;
@@ -138,3 +142,43 @@ body {
   content: url(../image/smile.svg);
 }
 /*promo end*/
+/*advantages start*/
+.adv__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+  margin-bottom: 130px;
+}
+.adv__item {
+  width: 224px;
+}
+.adv__item h4 {
+  font-family: 'Ubuntu';
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.adv__item p {
+  color: #585967;
+  font-weight: 400;
+}
+
+.adv__item-1::before {
+  content: url(../image/adv1.svg);
+}
+.adv__item-2::before {
+  content: url(../image/adv2.svg);
+}
+.adv__item-3::before {
+  content: url(../image/adv3.svg);
+}
+.adv__item-4::before {
+  content: url(../image/adv4.svg);
+}
+.adv__item-5::before {
+  content: url(../image/adv5.svg);
+}
+/*advantages end*/
