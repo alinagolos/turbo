@@ -10,19 +10,25 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <title>Турбо Ядро</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <nav class="header__nav">
-          <div class="logo">
+          <a class="logo">
             <img src="image/logo.svg" alt="логотип" />
             <div class="logo__text">
               <h1>Турбо Ядро</h1>
               <p>семантика за минуту</p>
             </div>
-          </div>
+          </a>
 
           <ul class="header__menu">
             <li><a href="#">Как работает</a></li>
@@ -167,8 +173,300 @@
           </ul>
         </div>
       </section>
+      <section class="price">
+        <div class="container">
+          <h3>Цены</h3>
+          <div class="price__content">
+            <div class="price__content-left">
+              <div class="price__table-container">
+                <table class="price__table">
+                  <tr>
+                    <th>Функционал</th>
+                    <th>Стоимость</th>
+                  </tr>
+                  <tr>
+                    <td>Сбор запросов по конкурентам</td>
+                    <td><strong>100 руб.</strong> за задачу</td>
+                  </tr>
+                  <tr>
+                    <td>Класстеризатор по ТОП</td>
+                    <td><strong>0.1 руб.</strong> за фразу</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="price__content-right">
+              <ul class="price-items">
+                <li class="price-item-1">
+                  <h4>Никаких тарифов</h4>
+                  <p>
+                    Пополняйте на ту сумму, которую нужно сейчас,
+                    не переплачивая за тариф
+                  </p>
+                </li>
+                <li class="price-item-2">
+                  <h4>Не сгорает баланс</h4>
+                  <p>Нет ограничений по времени</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h3 class="reviews__title">Отзывы</h3>
+          <div class="reviews__btn">
+            <img class="swiper-btn-prev" src="image/prev.svg" alt="prev" />
+            <div class="swiper-btn-pagination"></div>
+            <img class="swiper-btn-next" src="image/next.svg" alt="next" />
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <blockquote>
+                  <div class="reviews__content-left">
+                    <img src="image/p1.svg" alt="Фото" />
+                    <cite>Кирилл</cite>
+                    <p>SEO специалист</p>
+                  </div>
+                  <div class="reviews__content-right-bg">
+                    <div class="reviews__content-right">
+                      <h4 style="background-image: url(image/cavch.svg)">
+                        Лучший сервис!!!
+                      </h4>
+                      <p>
+                        Задача организации, в особенности же дальнейшее развитие
+                        различных форм деятельности в значительной степени
+                        обуславливает создание системы обучения кадров,
+                        соответствует насущным потребностям. Повседневная
+                        практика показывает, что укрепление и развитие!!
+                      </p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote>
+                  <div class="reviews__content-left">
+                    <img src="image/p2.svg" alt="Фото" />
+                    <cite>Иван</cite>
+                    <p>SEO студия “Альтернатива”</p>
+                  </div>
+                  <div class="reviews__content-right-bg">
+                    <div class="reviews__content-right">
+                      <h4 style="background-image: url(image/cavch.svg)">
+                        Значимость этих проблем настолько очевидна :)
+                      </h4>
+                      <p>
+                        Таким образом рамки и место обучения кадров играет
+                        важную роль в формировании соответствующий условий
+                        активизации.
+                      </p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote>
+                  <div class="reviews__content-left">
+                    <img src="image/p1.svg" alt="Фото" />
+                    <cite>Кирилл</cite>
+                    <p>SEO специалист</p>
+                  </div>
+                  <div class="reviews__content-right-bg">
+                    <div class="reviews__content-right">
+                      <h4 style="background-image: url(image/cavch.svg)">
+                        Лучший сервис!!!
+                      </h4>
+                      <p>
+                        Задача организации, в особенности же дальнейшее развитие
+                        различных форм деятельности в значительной степени
+                        обуславливает создание системы обучения кадров,
+                        соответствует насущным потребностям. Повседневная
+                        практика показывает, что укрепление и развитие!!
+                      </p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote>
+                  <div class="reviews__content-left">
+                    <img src="image/p2.svg" alt="Фото" />
+                    <cite>Иван</cite>
+                    <p>SEO студия “Альтернатива”</p>
+                  </div>
+                  <div class="reviews__content-right-bg">
+                    <div class="reviews__content-right">
+                      <h4 style="background-image: url(image/cavch.svg)">
+                        Значимость этих проблем настолько очевидна :)
+                      </h4>
+                      <p>
+                        Таким образом рамки и место обучения кадров играет
+                        важную роль в формировании соответствующий условий
+                        активизации.
+                      </p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote>
+                  <div class="reviews__content-left">
+                    <img src="image/p1.svg" alt="Фото" />
+                    <cite>Кирилл</cite>
+                    <p>SEO специалист</p>
+                  </div>
+                  <div class="reviews__content-right-bg">
+                    <div class="reviews__content-right">
+                      <h4 style="background-image: url(image/cavch.svg)">
+                        Лучший сервис!!!
+                      </h4>
+                      <p>
+                        Задача организации, в особенности же дальнейшее развитие
+                        различных форм деятельности в значительной степени
+                        обуславливает создание системы обучения кадров,
+                        соответствует насущным потребностям. Повседневная
+                        практика показывает, что укрепление и развитие!!
+                      </p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <a class="rewiews__button" href="#">Попробовать</a>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <h3 class="questions__title">Популярные вопросы</h3>
+          <ul class="questions__items">
+            <li class="questions__item">
+              <details>
+                <summary>Насколько полной получается семантика?</summary>
+                <p>
+                  Используется сразу несоклько платных, обновляемых баз, общей
+                  суммой 150 миллионов запросов. Сегодня практически не осталось
+                  ниш в которых не проработана seo-специалистами семантика.
+                  Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+                  эффективнее взять готовую семантику конкурентов.
+                </p>
+              </details>
+            </li>
+            <li class="questions__item">
+              <details>
+                <summary>Почему не нужно чистить запросы?</summary>
+                <p>
+                  Используется сразу несоклько платных, обновляемых баз, общей
+                  суммой 150 миллионов запросов. Сегодня практически не осталось
+                  ниш в которых не проработана seo-специалистами семантика.
+                  Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+                  эффективнее взять готовую семантику конкурентов.
+                </p>
+              </details>
+            </li>
+            <li class="questions__item">
+              <details>
+                <summary>Возможна ли оплата для юридических лиц?</summary>
+                <p>
+                  Используется сразу несоклько платных, обновляемых баз, общей
+                  суммой 150 миллионов запросов. Сегодня практически не осталось
+                  ниш в которых не проработана seo-специалистами семантика.
+                  Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+                  эффективнее взять готовую семантику конкурентов.
+                </p>
+              </details>
+            </li>
+            <li class="questions__item">
+              <details>
+                <summary>
+                  Почему класстеризатор не распределяет сразу по нескольким
+                  страницам?
+                </summary>
+                <p>
+                  Используется сразу несоклько платных, обновляемых баз, общей
+                  суммой 150 миллионов запросов. Сегодня практически не осталось
+                  ниш в которых не проработана seo-специалистами семантика.
+                  Вероятность найти новые ключи, крайне низкая. Поэтому, гораздо
+                  эффективнее взять готовую семантику конкурентов.
+                </p>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="partners">
+        <div class="container">
+          <h3>Партнерская программа</h3>
+          <div class="partners__content">
+            <div class="partners__content-left">
+              <ul class="partners__items">
+                <li class="partners__item">
+                  <img src="image/marker1.svg" alt="маркер" />
+                  <h4>Приведи друга</h4>
+                  <p>Отправьте ему ссылку или промокод</p>
+                </li>
+                <li class="partners__item">
+                  <img src="image/marker2.svg" alt="маркер" />
+                  <h4>После пополнения им баланса</h4>
+                  <p>эту сумму (столько же) отправим вам и ему до 500 руб.</p>
+                </li>
+                <li class="partners__item">
+                  <img src="image/marker3.svg" alt="маркер" />
+                  <h4>Если захотите вывести деньги</h4>
+                  <p>
+                    нужно будет показать нам постоянный источник привлечения
+                    (защита от спама)
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <img src="image/people.svg" alt="Люди" />
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__nav">
+          <div class="footer__logo">
+            <a class="logo" href="#">
+              <img src="image/logo1.svg" alt="логотип" />
+              <div class="logo__text">
+                <h1>Турбо Ядро</h1>
+                <p>семантика за минуту</p>
+              </div>
+            </a>
+            <p>Турбо Ядро © [2022]. Все права защищены</p>
+          </div>
+
+          <ul class="footer__timetable">
+            <h4>Дни работы поддержки</h4>
+            <li>ПН-ВС. Каждый день</li>
+            <li>7:00-20:00 по Москве</li>
+          </ul>
+          <ul class="footer__contacts">
+            <h4>Контакты</h4>
+
+            <li>
+              <a href="mailto: help@turbo-yadro.ru">help@turbo-yadro.ru</a>
+            </li>
+            <li>
+              <a href="tel:+79609969576"> +7-960-996-95-76 </a>
+            </li>
+          </ul>
+          <ul class="footer__policy">
+            <li><a href="#">Пользовательское соглашение</a></li>
+            <li><a href="#">Политика оплаты и возврата</a></li>
+            <li><a href="#">Политика использования Cookie</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
