@@ -9,6 +9,7 @@ html {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 ul {
   list-style: none;
@@ -193,7 +194,6 @@ body {
   border-radius: 10px;
   opacity: 0.9;
   transition: 0.7s ease;
-  padding: 3px;
 }
 .adv__item h4 {
   font-family: 'Ubuntu';
@@ -372,7 +372,7 @@ body {
 .price__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   gap: 100px;
 }
 
@@ -413,15 +413,28 @@ td {
 .price__table td:nth-child(2n) {
   font-size: 20px;
 }
-.price-item-1 h4::before {
+.price-items h4 {
+  color: #07040c;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.price-item-1 {
+  margin-bottom: 60px;
+}
+.price-item-1::before {
   content: url(../image/price1.svg);
+  float: left;
+  width: 20%;
 }
 .price-item-2::before {
   content: url(../image/price2.svg);
+  float: left;
+  width: 20%;
 }
 
-.price-item-1 {
-}
 /*price end*/
 
 .reviews__title {
@@ -521,6 +534,9 @@ blockquote {
   text-transform: uppercase;
   margin: 0 auto;
   width: 10%;
+}
+.swiper-btn-pagination {
+  text-align: center;
 }
 .rewiews__button:hover {
   background-color: #eb9364;
